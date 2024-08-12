@@ -33,15 +33,15 @@ The Weather Hub project provides all the necessary documents, code, and supporti
 
 - Follow the provided documentation in the `/docs` folder to assemble your weather station.
 
-3. **Flash the ESP32
+3. **Flash the ESP32**
 
 - Use the example code provided in the `/code` folder to program your ESP32.
 
-4. **Register Your Weather Station
+4. **Register Your Weather Station**
 
 - After assembly and programming, register your weather station at [CIJE Weather Hub](https://cijeweatherhub.site) with a unique name and location.
 
-5. **Monitor Data
+5. **Monitor Data**
 
 - Once registered, your weather station will begin transmitting data to the CIJE Weather Hub. You can monitor the data in real-time at [CIJE Weather Hub](https://cijeweatherhub.site).
 
