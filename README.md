@@ -29,13 +29,14 @@ The Weather Hub project provides all the necessary documents, code, and supporti
 1. **Clone this Repository**:
    ```bash
    git clone https://github.com/yourusername/weather-hub.git
-2. **Build the Weather Station**
+2. **Build a Weather Station**
 
 - Follow the provided documentation in the `/docs` folder to assemble your weather station.
+- This weather utilizes the ESP32 to connect with an online database. However, other wireless technologies like bluetooth, nRF24 and GSM to transmit data to local display or to the CIJE Weather Hub database.
 
-3. **Flash the ESP32**
+3. **Flash code**
 
-- Use the example code provided in the `/code` folder to program your ESP32.
+- Use the example code provided in the `/examples` folder to program your ESP32, HM-10, SiM7000 or nRF24.
 
 4. **Register Your Weather Station**
 
