@@ -31,7 +31,7 @@ The Weather Hub project provides all the necessary documents, code, and supporti
    git clone https://github.com/yourusername/weather-hub.git
 2. **Build a Weather Station**
 
-- Follow the provided documentation in the `/docs` folder to assemble your weather station.
+- Follow the provided documentation (`Weather Station Build.docx`) in the `/docs` folder to assemble your weather station.
 - This weather station utilizes the ESP32 to connect with an online database. However, other wireless technologies that use WiFi may be utilized but may require coding adjustments. Also GSM technologies (see `/examples` folder to or to the CIJE Weather Hub database.
 - Additionally, Bluetooth (like the HM-10) and the nRF24 can be used transmit data to local display or app instead of or in addition to uploading data to the online database. 
 
@@ -39,15 +39,15 @@ The Weather Hub project provides all the necessary documents, code, and supporti
 
 - After assembly and programming, register your weather station at [CIJE Weather Hub](https://cijeweatherhub.site) with a unique name and location.
   
-4.
-- **Flash code**
+4.  **Flash code**
 
 - Use the example code provided in the `/examples` folder to program your ESP32, HM-10, SiM7000 or nRF24.
+- For ESP32 Weather Station use `/examples/CIJE_WeatherStation_ESP32v2`
 - Be sure to include your unique **station_id** number provided after registration.
 
 5. **Monitor Data**
 
-- Once registered, your weather station will begin transmitting data to the CIJE Weather Hub. You can monitor the data in real-time at [CIJE Weather Hub](https://cijeweatherhub.site).
+- Once registered, your weather station will begin transmitting data to the CIJE Weather Hub. You can monitor the data in real-time at [CIJE Weather Hub](https://cijeweatherhub.site). It will be posted on the map.  Contact the administrator (cad@thecije.org) if it is not posting.
 
 ### Contributing
 
